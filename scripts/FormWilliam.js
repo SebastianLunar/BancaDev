@@ -10,7 +10,7 @@ formulario.addEventListener("submit", (e) => {
     const horaFecha = document.getElementById('HoraFecha').value
 
     if (!formulario) {
-            alert('mostrar datos'+ nombre+ apellidos+ email+ pasaTiempo+ horaFecha)
+            alert('mostrar datos: ' +nombre+ apellidos+ email+ pasaTiempo+ horaFecha)
     } else {
         alert('ingrese datos')
     }
