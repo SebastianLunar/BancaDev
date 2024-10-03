@@ -9,9 +9,5 @@ formulario.addEventListener("submit", (e) => {
     const pasaTiempo = document.getElementById('pasaTiempo').value
     const horaFecha = document.getElementById('HoraFecha').value
 
-    if (!formulario) {
-            alert('mostrar datos: ' +nombre+ apellidos+ email+ pasaTiempo+ horaFecha)
-    } else {
-        alert('ingrese datos')
-    }
+    
 })
