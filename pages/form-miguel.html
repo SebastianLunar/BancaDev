@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Datos</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Preferencias</h1>
+    <form id="dataForm">
+      <label for="inputName">Nombre:</label>
+      <input type="text" id="inputName" name="inputName" required>
+
+      <label for="inputAge">Edad:</label>
+      <input type="number" id="inputAge" name="inputAge" required min="1">
+
+      <label>¿Sueles ver deportes?</label>
+      <div class="radio-group">
+        <input type="radio" id="sportsYes" name="sports" value="Sí" required>
+        <label for="sportsYes">Sí</label>
+
+        <input type="radio" id="sportsNo" name="sports" value="No" required>
+        <label for="sportsNo">No</label>
+      </div>
+
+      <label>¿Cuáles de estos deportes ves regularmente? (Selecciona los que apliquen)</label>
+      <div class="checkbox-group">
+        <input type="checkbox" id="football" name="sportsType" value="Fútbol">
+        <label for="football">Fútbol</label>
+
+        <input type="checkbox" id="basketball" name="sportsType" value="Baloncesto">
+        <label for="basketball">Baloncesto</label>
+
+        <input type="checkbox" id="tennis" name="sportsType" value="Tenis">
+        <label for="tennis">Tenis</label>
+
+        <input type="checkbox" id="none" name="sportsType" value="Ninguno">
+        <label for="none">Ninguno</label>
+      </div>
+
+    
+      <label for="hobbies">¿Cuál es tu pasatiempo favorito?</label>
+      <select id="hobbies" name="hobbies">
+        <option value="Leer">Leer</option>
+        <option value="Ver Películas">Ver Películas</option>
+        <option value="Viajar">Viajar</option>
+        <option value="Hacer Deportes">Hacer Deportes</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="../scripts/script.js"></script>
+</body>
+</html>
