@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(199, 211, 221);
+}
+
+#formEnglish{
+
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+
+}
+
+#buttonBack{
+    
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
